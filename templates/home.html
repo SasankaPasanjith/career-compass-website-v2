@@ -2,53 +2,29 @@
 <html>
   <head>
     <title>Career Compass</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-      h1{
-        font-size: 40px;
-        font-family: roboto;
-        font-weight: normal;
-        color: rgb(60,60,60);
-        text-emphasis: none;
-        text-align: center;  
-      }
-      
-      #banner{
-        width:100%;
-        height:480px;
-        object-fit:cover;
-      }
-
-      h2{
-        font-family: roboto;
-        font-size: 32px;
-        color: rgb(100,100,100);
-        text-emphasis: none;
-        text-align: center;
-        font-weight: normal;
-      }
-      .bodytext{
-        font-family: roboto;
-        color: rgb(80,80,80);
-      }
-
-      #container{
-        max-width:720px;
-        margin: 0 auto;
-      }
+    #banner{
+      height: 460px;
+      width: 100%;
+      object-fit: cover;
+    }
     </style>
   </head>
   <body>
-    <div id="container">
-    <h1>Career Compass</h1>
-    <img id="banner" src= "https://4548e0c4-3306-460d-9d41-745e94f438ee-00-2yldt3mriio96.sisko.replit.dev/static/Banner.jpeg" height="320">
-    <h2>About Career Compass</h2>
-    <p class="bodytext">Welcome to Career Compass! We're here to help you navigate the twists and turns of your professional journey. Our dedicated team is committed to providing you with the guidance, resources, and support you need to reach your career goals. Whether you're just starting out or looking to make a change, Career Compass is your trusted partner in charting a course toward success. Let us be your guide as you explore new opportunities, overcome challenges, and ultimately, achieve your dreams. Welcome aboard!</p>
+    <div class="container">
+    <h1 class="text-center mt-4 mb-4">Career Compass</h1>
+    <img class="img-fluid" id="banner" src= "https://4548e0c4-3306-460d-9d41-745e94f438ee-00-2yldt3mriio96.sisko.replit.dev/static/Banner.jpeg" height="320">
+    <h2 class="text-center mt-4 mb-4">About Career Compass</h2>
+    <p class="lead">Welcome to Career Compass! We're here to help you navigate the twists and turns of your professional journey. Our dedicated team is committed to providing you with the guidance, resources, and support you need to reach your career goals. Whether you're just starting out or looking to make a change, Career Compass is your trusted partner in charting a course toward success. Let us be your guide as you explore new opportunities, overcome challenges, and ultimately, achieve your dreams. Welcome aboard!</p>
     
-   <h2>Open Positions</h2>
-    <p class="bodytext">Show the jobs here</p>
-      <div style=text-align:center>
-    <button>Contact us</button>
-        <p>Copyright 2024, Career Compass</p>
+   <h2 class="text-center mt-4 mb-4">Open Positions</h2>
+    <p>Show the jobs here</p>
+      <div class="text-center">
+    <button type="button" class="btn btn-primary btn-lg">Contact us</button>
+        <p class="mt-4">Copyright 2024, Career Compass</p>
       </div>
       </div>
   </body>
