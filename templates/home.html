@@ -21,7 +21,11 @@
     <p class="lead">Welcome to Career Compass! We're here to help you navigate the twists and turns of your professional journey. Our dedicated team is committed to providing you with the guidance, resources, and support you need to reach your career goals. Whether you're just starting out or looking to make a change, Career Compass is your trusted partner in charting a course toward success. Let us be your guide as you explore new opportunities, overcome challenges, and ultimately, achieve your dreams. Welcome aboard!</p>
     
    <h2 class="text-center mt-4 mb-4">Open Positions</h2>
-    <p>Show the jobs here</p>
+    <div>
+      {% for job in jobs %}
+       {% include 'jobs.html' %}
+      {% endfor %}
+    </div>
       <div class="text-center">
     <button type="button" class="btn btn-primary btn-lg">Contact us</button>
         <p class="mt-4">Copyright 2024, Career Compass</p>
