@@ -19,10 +19,17 @@
     <img class="img-fluid" id="banner" src= "https://4548e0c4-3306-460d-9d41-745e94f438ee-00-2yldt3mriio96.sisko.replit.dev/static/Banner.jpeg" height="320">
     <div class="container">
       <h1 class="text-center mt-4 mb-4">Career Compass</h1>
-   
-    <p class="lead">Welcome to Career Compass! We're here to help you navigate the twists and turns of your professional journey. Our dedicated team is committed to providing you with the guidance, resources, and support you need to reach your career goals. Whether you're just starting out or looking to make a change, Career Compass is your trusted partner in charting a course toward success. Let us be your guide as you explore new opportunities, overcome challenges, and ultimately, achieve your dreams. Welcome aboard!</p>
-    
-   <h2 class="text-center mt-4 mb-4">Open Positions</h2>
+      <div class = "row" style="margin-bottom:16px">
+   <div class ="col-md-6">
+    <p class="lead">
+      Welcome to Career Compass! We're here to help you navigate the twists and turns of your professional journey. Our dedicated team is committed to providing you with the guidance, resources, and support you need to reach your career goals. Whether you're just starting out or looking to make a change, Career Compass is your trusted partner in charting a course toward success. Let us be your guide as you explore new opportunities, overcome challenges, and ultimately, achieve your dreams. Welcome aboard!
+    </p>
+     </div>
+      <div class="d-none d-md-block col-md-6">
+    <img src="/static/working people.jpg" style="height:320px; border-radius:4px">"
+      </div>
+    </div>
+   <h2 class="text-center mt-2 mb-4">Open Positions</h2>
     <div>
       {% for job in jobs %}
        {% include 'jobs.html' %}
